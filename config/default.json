@@ -1,0 +1,4 @@
+{
+  "port": 3000,
+  "dbUri": "mongodb+srv://Shokir:Poilkjmnb098@shokir.i5uhyme.mongodb.net/it_info?retryWrites=true&w=majority"
+}
