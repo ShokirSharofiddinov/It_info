@@ -27,7 +27,7 @@ const createAuthor = async (req, res) => {
     if (author) {
       return res.status(400).send({ message: "Bunday avtor kiritilgan" });
     }
-    const hashedPassword = bcrypt.hashSync(author_password, 7);
+    const hashedPassword = await bcrypt.hash(author_password, 7);
     const newAuthor = await Author({
       author_first_name,
       author_last_name,
