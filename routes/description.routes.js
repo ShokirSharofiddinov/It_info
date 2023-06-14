@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const {
   getDesc,
-  createDesc,
+  addDesc,
   getDescById,
   updateDesc,
   deleteDesc,
@@ -9,7 +9,7 @@ const {
 
 const router = Router();
 router.get("/", getDesc);
-router.post("/", createDesc);
+router.post("/", addDesc);
 router.get("/:id", getDescById);
 router.put("/:id", updateDesc);
 router.delete("/:id", deleteDesc);

@@ -3,15 +3,14 @@ const Category = require("../models/Category");
 const { default: mongoose } = require("mongoose");
 const { categoryValidation } = require("../validation/category");
 
-const createCategory = async (req, res) => {
+const addCategory = async (req, res) => {
   try {
     const { error, value } = categoryValidation(req.body);
     if (error) {
       return res.status(400).send({ message: error.details[0].message });
     }
 
-
-    const { category_name, parent_category_id } = value
+    const { category_name, parent_category_id } = value;
     const category = await Category.findOne({
       category_name: { $regex: category_name, $options: "i" },
     });
@@ -122,7 +121,7 @@ const deleteCategory = async (req, res) => {
   }
 };
 module.exports = {
-  createCategory,
+  addCategory,
   getCategories,
   getCategoryById,
   updateCategory,

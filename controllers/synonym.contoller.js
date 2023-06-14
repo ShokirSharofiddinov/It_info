@@ -2,7 +2,7 @@ const errorHandler = require("../helpers/error_handler");
 const Synonym = require("../models/Synonym");
 const { default: mongoose } = require("mongoose");
 
-const createSyn = async (req, res) => {
+const addSyn = async (req, res) => {
   try {
     const { dict_id, desc_id } = req.body;
 
@@ -68,7 +68,7 @@ const deleteSynonym = async (req, res) => {
 };
 
 module.exports = {
-  createSyn,
+  addSyn,
   getSynonyms,
   getSynonym,
   updateSynonym,

@@ -2,7 +2,7 @@ const errorHandler = require("../helpers/error_handler");
 const Description = require("../models/Description");
 const { default: mongoose } = require("mongoose");
 
-const createDesc = async (req, res) => {
+const addDesc = async (req, res) => {
   try {
     const { description, category_id } = req.body;
     // const desc = await Description.findOne({
@@ -89,7 +89,7 @@ const deleteDesc = async (req, res) => {
   }
 };
 module.exports = {
-  createDesc,
+  addDesc,
   getDesc,
   getDescById,
   updateDesc,

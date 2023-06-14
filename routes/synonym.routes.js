@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const {
   getSynonyms,
-  createSyn,
+  addSyn,
   getSynonym,
   updateSynonym,
   deleteSynonym,
@@ -9,7 +9,7 @@ const {
 
 const router = Router();
 router.get("/", getSynonyms);
-router.post("/", createSyn);
+router.post("/", addSyn);
 
 router.get("/:id", getSynonym);
 router.put("/:id", updateSynonym);

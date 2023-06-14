@@ -15,7 +15,7 @@ router.use("/api/description", descRouter);
 router.use("/api/synonym", synonymRouter);
 router.use("/api/author", author)
 router.use("/api/user",user)
-router.use(".api/admin",admin)
+router.use("/api/admin",admin)
 
 module.exports = router;
 

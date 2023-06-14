@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const {
-  createAuthor,
+  addAuthor,
   getAuthors,
   getAuthorsById,
   loginAuthor,
@@ -8,8 +8,8 @@ const {
 
 const router = Router();
 router.get("/", getAuthors);
-router.post("/", createAuthor);
+router.post("/", addAuthor);
 router.get("/:id", getAuthorsById);
-router.post("/login", loginAuthor)
+router.post("/login", loginAuthor);
 
 module.exports = router;

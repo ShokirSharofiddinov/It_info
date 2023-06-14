@@ -1,8 +1,14 @@
-const errorHandler = require("../helpers/error_handler");
 const Admin = require("../models/Admin");
 const { mongoose } = require("mongoose");
+const bcrypt = require("bcrypt")
+const {adminValidation} = require("../validation/admin.validation");
+const { errorHandler } = require("../helpers/error_handler");
 
 const addAdmin = async (req, res) => {
+  const { error, value } = adminValidation(req.body);
+  if (error) {
+    return res.status(404).send({ message: error.details[0].message });
+  }
   try {
     const {
       admin_name,
@@ -11,20 +17,20 @@ const addAdmin = async (req, res) => {
       created_date,
       updated_date,
       admin_is_activ,
-      admin_is_creatoyr
-    } = req.body;
+      admin_is_creatoyr,
+    } = value;
     const admin = await Admin.findOne({
       admin_name: { $regex: admin_email, $options: "i" },
     });
     if (admin) {
       return res.status(400).json({ message: "email already exists" });
     }
+    const hashedPassword = await bcrypt.hash(admin_password, 7);
+
     const newAdmin = new Admin({
       admin_name,
-      admin_password,
+      admin_password: hashedPassword,
       admin_email,
-      admin_info,
-      admin_photo,
       created_date,
       updated_date,
       admin_is_activ,
@@ -40,7 +46,7 @@ const addAdmin = async (req, res) => {
 
 const getAdmins = async (req, res) => {
   try {
-    const admin = await Admin.find({})
+    const admin = await Admin.find({});
     if (!admin) {
       return res.status(404).json({ message: "No admin found" });
     }
@@ -66,7 +72,6 @@ const getAdminById = async (req, res) => {
   }
 };
 
-
 const deleteAdmin = async (req, res) => {
   try {
     if (!mongoose.isValidObjectId(req.params.id)) {
@@ -84,9 +89,30 @@ const deleteAdmin = async (req, res) => {
     errorHandler(res, error);
   }
 };
+
+const loginAdmin = async (req, res) => {
+  try {
+    const { admin_email, admin_password } = req.body;
+    const admin = await Admin.findOne({ admin_email });
+    if (!admin)
+      return res.status(400).send({ message: "Email yoki parol noto'g'ri" });
+    const validPassword = bcrypt.compareSync(
+      admin_password,
+      admin.admin_password
+    );
+    if (!validPassword)
+      return res.status(400).send({ message: "Email yoki parol noto'g'ri" });
+
+    res.status(200).send({ message: "Tizimga hush kelibsiz" });
+  } catch (error) {
+    errorHandler(res, error);
+  }
+};
+
 module.exports = {
   addAdmin,
   getAdmins,
   getAdminById,
   deleteAdmin,
+  loginAdmin
 };

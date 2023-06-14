@@ -1,10 +1,10 @@
-const { errorHandler } = require("../helpers/error_handler");
 const Author = require("../models/Author");
 const { mongoose } = require("mongoose");
 const { authorValidation } = require("../validation/author.validation");
 const bcrypt = require("bcrypt");
+const { errorHandler } = require("../helpers/error_handler");
 
-const createAuthor = async (req, res) => {
+const addAuthor = async (req, res) => {
   try {
     const { error, value } = authorValidation(req.body);
     if (error) {
@@ -61,7 +61,7 @@ const loginAuthor = async (req, res) => {
     if (!validPassword)
       return res.status(400).send({ message: "Email yoki parol noto'g'ri" });
 
-    res.status(200).send({message:"Tizimga hush kelibsiz"})
+    res.status(200).send({ message: "Tizimga hush kelibsiz" });
   } catch (error) {
     errorHandler(res, error);
   }
@@ -95,8 +95,8 @@ const getAuthorsById = async (req, res) => {
 };
 
 module.exports = {
-  createAuthor,
+  addAuthor,
   getAuthors,
   getAuthorsById,
-  loginAuthor
+  loginAuthor,
 };

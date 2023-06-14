@@ -24,7 +24,7 @@ const adminSchema = new Schema(
     admin_is_activ: {
       type: Boolean,
     },
-    admin_iscreator: {
+    admin_is_creator: {
       type: Boolean,
     },
   },
