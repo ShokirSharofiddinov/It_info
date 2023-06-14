@@ -1,7 +1,8 @@
 const { errorHandler } = require("../helpers/error_handler");
 const Author = require("../models/Author");
-const { default: mongoose } = require("mongoose");
+const { mongoose } = require("mongoose");
 const { authorValidation } = require("../validation/author.validation");
+const bcrypt = require("bcrypt");
 
 const createAuthor = async (req, res) => {
   try {
@@ -13,7 +14,7 @@ const createAuthor = async (req, res) => {
       author_first_name,
       author_last_name,
       author_nick_name,
-      author_passowrd,
+      author_password,
       author_email,
       author_phone,
       author_info,
@@ -22,18 +23,16 @@ const createAuthor = async (req, res) => {
       is_expert,
     } = value;
 
-    console.log(value);
-
     const author = await Author.findOne({ author_email });
     if (author) {
       return res.status(400).send({ message: "Bunday avtor kiritilgan" });
     }
-
+    const hashedPassword = bcrypt.hashSync(author_password, 7);
     const newAuthor = await Author({
       author_first_name,
       author_last_name,
       author_nick_name,
-      author_passowrd,
+      author_password: hashedPassword,
       author_email,
       author_phone,
       author_info,
@@ -49,12 +48,31 @@ const createAuthor = async (req, res) => {
   }
 };
 
+const loginAuthor = async (req, res) => {
+  try {
+    const { author_email, author_password } = req.body;
+    const author = await Author.findOne({ author_email });
+    if (!author)
+      return res.status(400).send({ message: "Email yoki parol noto'g'ri" });
+    const validPassword = bcrypt.compareSync(
+      author_password,
+      author.author_password
+    );
+    if (!validPassword)
+      return res.status(400).send({ message: "Email yoki parol noto'g'ri" });
+
+    res.status(200).send({message:"Tizimga hush kelibsiz"})
+  } catch (error) {
+    errorHandler(res, error);
+  }
+};
+
 const getAuthors = async (req, res) => {
   try {
     const authors = await Author.find({});
-    if (!authors) {
+    if (!authors)
       return res.status(400).send({ message: "Authorlar topilmadi" });
-    }
+
     res.json(authors);
   } catch (error) {
     errorHandler(res, error);
@@ -80,4 +98,5 @@ module.exports = {
   createAuthor,
   getAuthors,
   getAuthorsById,
+  loginAuthor
 };

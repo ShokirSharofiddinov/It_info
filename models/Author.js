@@ -16,8 +16,8 @@ const authorSchema = new Schema(
       required: true,
       trim: true,
     },
-    author_passowrd: {
-      type: String
+    author_password: {
+      type: String,
     },
     author_email: {
       type: String,
