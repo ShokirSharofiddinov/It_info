@@ -4,7 +4,7 @@ exports.categoryValidation = (data) => {
   const schema = Joi.object({
     category_name: Joi.string()
       .min(2)
-      .message("Kategory nomi 2 ta harifdan kam bo'lmaligi kerak!")
+      .message("Kategory nomi 2 ta harifdan kam bo'lmasligi kerak!")
       .max(255)
       .message("Kategory nomi 255 ta harifdan uzun bo'lmasligi kerak!")
       .required(),
