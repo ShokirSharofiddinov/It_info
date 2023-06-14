@@ -12,7 +12,7 @@ const addUser = async (req, res) => {
       user_photo,
       created_date,
       updated_date,
-      user_id_activ,
+      user_is_activ,
     } = req.body;
     const user = await User.findOne({
       user_name: { $regex: user_email, $options: "i" },
@@ -28,7 +28,7 @@ const addUser = async (req, res) => {
       user_photo,
       created_date,
       updated_date,
-      user_id_activ,
+      user_is_activ,
     });
     newUser.save();
 
@@ -66,34 +66,7 @@ const getUserById = async (req, res) => {
     errorHandler(res, error);
   }
 };
-const updateUser = async (req, res) => {
-  try {
-    if (!mongoose.isValidObjectId(req.params.id)) {
-      return res.status(400).send({
-        message: "Invalid id",
-      });
-    }
-    const { id } = req.params;
-    const {
-      user_name,
-      user_password,
-      user_email,
-      user_info,
-      user_photo,
-      created_date,
-      updated_date,
-      user_id_activ,
-    } = req.body;
-    const user = await User.findById(id);
-    if (!user) {
-      return res.status(404).json({ message: "No user found" });
-    }
-    user.save();
-    res.status(200).json({ message: "User updated successfully" });
-  } catch (error) {
-    errorHandler(res, error);
-  }
-};
+
 
 const deleteUser = async (req, res) => {
   try {
@@ -116,6 +89,5 @@ module.exports = {
   addUser,
   getUsers,
   getUserById,
-  updateUser,
   deleteUser,
 };

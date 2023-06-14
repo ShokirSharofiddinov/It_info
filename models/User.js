@@ -27,7 +27,7 @@ const userSchema = new Schema(
     updated_date: {
       type: Date,
     },
-    user_id_activ: {
+    user_is_activ: {
       type: Boolean,
     },
   },
