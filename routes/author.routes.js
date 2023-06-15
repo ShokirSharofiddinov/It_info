@@ -6,12 +6,13 @@ const {
   loginAuthor,
 } = require("../controllers/author.controller");
 
-const authorPolice = require("../middleware/authorPolice")
+const authorPolice = require("../middleware/authorPolice");
+const authorRolesPolice = require("../middleware/authorRolesPolice");
 
 const router = Router();
-router.get("/", authorPolice ,getAuthors);
+router.get("/", authorPolice, getAuthors);
+router.get("/:id", authorRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), getAuthorsById);
 router.post("/", addAuthor);
-router.get("/:id", getAuthorsById);
 router.post("/login", loginAuthor);
 
 module.exports = router;
