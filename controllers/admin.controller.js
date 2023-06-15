@@ -1,8 +1,19 @@
 const Admin = require("../models/Admin");
 const { mongoose } = require("mongoose");
-const bcrypt = require("bcrypt")
-const {adminValidation} = require("../validation/admin.validation");
+const bcrypt = require("bcrypt");
+const { adminValidation } = require("../validation/admin.validation");
+const jwt = require("jsonwebtoken");
 const { errorHandler } = require("../helpers/error_handler");
+const config = require('config');
+
+const generateAccessToken = (id, admin_is_activ, admin_is_creatoyr) => {
+  const payload = {
+    id,
+    admin_is_activ,
+    admin_is_creatoyr,
+  };
+  return jwt.sign(payload, config.get("adminSecret"), { expiresIn: "1h" });
+};
 
 const addAdmin = async (req, res) => {
   const { error, value } = adminValidation(req.body);
@@ -103,16 +114,24 @@ const loginAdmin = async (req, res) => {
     if (!validPassword)
       return res.status(400).send({ message: "Email yoki parol noto'g'ri" });
 
-    res.status(200).send({ message: "Tizimga hush kelibsiz" });
+    const token = generateAccessToken(
+      admin._id,
+      admin.admin_is_activ,
+      admin.admin_is_creator,
+      ["READ", "WRITE", "CHANGE", "DELETE"]
+    );
+
+    res.status(200).send({ token: token });
   } catch (error) {
     errorHandler(res, error);
   }
 };
+
 
 module.exports = {
   addAdmin,
   getAdmins,
   getAdminById,
   deleteAdmin,
-  loginAdmin
+  loginAdmin,
 };

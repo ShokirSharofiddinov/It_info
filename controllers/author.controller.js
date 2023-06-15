@@ -110,9 +110,28 @@ const getAuthorsById = async (req, res) => {
   }
 };
 
+const deleteAuthor = async (req, res) => {
+  try {
+    if (!mongoose.isValidObjectId(req.params.id)) {
+      return res.status(400).send({
+        message: "Invalid id",
+      });
+    }
+    const { id } = req.params;
+    const author = await Author.findByIdAndDelete(id);
+    if (!author) {
+      return res.status(404).json({ message: "No author found" });
+    }
+    res.status(200).json({ message: "Successfully deleted" });
+  } catch (error) {
+    errorHandler(res, error);
+  }
+};
+
 module.exports = {
   addAuthor,
   getAuthors,
   getAuthorsById,
   loginAuthor,
+  deleteAuthor,
 };
