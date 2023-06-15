@@ -3,6 +3,17 @@ const { mongoose } = require("mongoose");
 const { authorValidation } = require("../validation/author.validation");
 const bcrypt = require("bcrypt");
 const { errorHandler } = require("../helpers/error_handler");
+const jwt = require("jsonwebtoken");
+const config = require("config");
+
+const generateAccessToken = (id, is_expert, authorRoles) => {
+  const payload = {
+    id,
+    is_expert,
+    authorRoles,
+  };
+  return jwt.sign(payload, config.get("secret"), { expiresIn: "1h" });
+};
 
 const addAuthor = async (req, res) => {
   try {
@@ -61,7 +72,12 @@ const loginAuthor = async (req, res) => {
     if (!validPassword)
       return res.status(400).send({ message: "Email yoki parol noto'g'ri" });
 
-    res.status(200).send({ message: "Tizimga hush kelibsiz" });
+    const token = generateAccessToken(author._id, author.is_expert, [
+      "READ",
+      "WRITE",
+    ]);
+
+    res.status(200).send({ token: token });
   } catch (error) {
     errorHandler(res, error);
   }
