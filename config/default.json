@@ -2,5 +2,10 @@
   "port": 3000,
   "dbUri": "mongodb+srv://Shokir:Poilkjmnb098@shokir.i5uhyme.mongodb.net/it_info?retryWrites=true&w=majority",
   "secret": "MyVeryVerySeceretKey",
-  "adminSecret": "AdminVeryVerySeceretKey"
+  "adminSecret": "AdminVeryVerySeceretKey",
+  "access_key": "BuAccssUchunMahfiyKalit",
+  "refresh_key": "BuRefeshUchunMahfiyKalit",
+  "access_time" : "15m",
+  "refresh_time": "30d",
+  "refresh_ms": 2592000000
 }
