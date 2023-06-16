@@ -12,22 +12,18 @@ const { deleteUser, addUser } = require("../controllers/user.controller");
 const {
   deleteAuthor,
   addAuthor,
-  getAuthors,
 } = require("../controllers/author.controller");
 const {
   deleteCategory,
   addCategory,
-  getCategories,
 } = require("../controllers/category.controller");
 const {
   deleteDesc,
   addDesc,
-  getDesc,
 } = require("../controllers/description.controller");
 const {
   deleteDict,
   addDict,
-  getDict,
 } = require("../controllers/dictionary.controller");
 const { deleteSynonym, addSyn } = require("../controllers/synonym.contoller");
 
@@ -42,17 +38,17 @@ router.get(
   getAdminById
 );
 router.delete("/:id", deleteAdmin);
-router.delete("/user/:id", deleteUser);
-router.delete("/author/:id", deleteAuthor);
-router.delete("/category/:id", deleteCategory);
-router.delete("/des/:id", deleteDesc);
-router.delete("/dic/:id", deleteDict);
-router.delete("/syn/:id", deleteSynonym);
-router.post("/user", addUser);
-router.post("/author", addAuthor);
-router.post("/category", addCategory);
-router.post("/des", addDesc);
-router.post("/dic", addDict);
-router.post("/syn", addSyn);
+router.delete("/user/:id", adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), deleteUser);
+router.delete("/author/:id", adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), deleteAuthor);
+router.delete("/category/:id", adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), deleteCategory);
+router.delete("/des/:id", adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), deleteDesc);
+router.delete("/dic/:id", adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), deleteDict);
+router.delete("/syn/:id",adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), deleteSynonym);
+router.post("/user", adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]),addUser);
+router.post("/author",adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), addAuthor);
+router.post("/category",adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), addCategory);
+router.post("/des",adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), addDesc);
+router.post("/dic",adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), addDict);
+router.post("/syn",adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), addSyn);
 
 module.exports = router;
