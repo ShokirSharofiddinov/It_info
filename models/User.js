@@ -30,6 +30,9 @@ const userSchema = new Schema(
     user_is_activ: {
       type: Boolean,
     },
+    user_token: {
+      type: String,
+    },
   },
   {
     versionKey: false,

@@ -5,6 +5,7 @@ const {
   addAdmin,
   getAdminById,
   loginAdmin,
+  logoutAdmin,
 } = require("../controllers/admin.controller");
 const adminPolice = require("../middleware/adminPolice");
 const adminRolesPolice = require("../middleware/adminRolesPolice");
@@ -38,6 +39,8 @@ router.get(
   getAdminById
 );
 router.delete("/:id", deleteAdmin);
+router.post("/logout", logoutAdmin)
+
 router.delete("/user/:id", adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), deleteUser);
 router.delete("/author/:id", adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), deleteAuthor);
 router.delete("/category/:id", adminRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]), deleteCategory);

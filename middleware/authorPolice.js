@@ -1,5 +1,6 @@
 const jwt = require("jsonwebtoken");
 const config = require("config");
+const myJwt = require("../services/JwtService");
 
 module.exports = async function (req, res, next) {
   if (req.method == "OPTIONS") {
@@ -22,7 +23,7 @@ module.exports = async function (req, res, next) {
     }
 
     const [error, decodedToken] = await to(
-      jwt.verify(token, config.get("secret"))
+      myJwt.verifyAccess(token, config.get("secret"))
     );
     if (error) {
       return res.status(403).json({ message: error.message });

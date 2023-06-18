@@ -3,6 +3,8 @@ const { mongoose } = require("mongoose");
 const {userValidation} = require("../validation/user.validation");
 const { errorHandler } = require("../helpers/error_handler");
 const bcrypt = require("bcrypt");
+const config = require("config")
+const myJwt = require("../services/JwtService")
 
 const addUser = async (req, res) => {
   try {
@@ -55,7 +57,24 @@ const loginUser = async (req, res) => {
     if (!validPassword)
       return res.status(400).send({ message: "Email yoki parol noto'g'ri" });
 
-    res.status(200).send({ message: "Tizimga hush kelibsiz" });
+    const payload = {
+      id: user._id,
+      is_activ: user.user_is_activ,
+      userRoles: ["READ"],
+    };
+    const tokens = myJwt.generateTokens(payload);
+    console.log(tokens);
+
+    user.user_token = tokens.refreshToken;
+    await user.save();
+
+    res.cookie("refreshToken", tokens.refreshToken, {
+      maxAge: config.get("refresh_ms"),
+      httpOnly: true,
+    });
+
+    res.status(200).send({ ...tokens });
+
   } catch (error) {
     errorHandler(res, error);
   }
@@ -106,10 +125,27 @@ const deleteUser = async (req, res) => {
     errorHandler(res, error);
   }
 };
+
+const logoutUser = async (req, res) => {
+  const { refreshToken } = req.cookies;
+  let user;
+  if (!refreshToken)
+    return res.status(400).send({ message: "Token topilmadi" });
+  user = await User.findOneAndUpdate(
+    { user_token: refreshToken },
+    { user_token: "" },
+    { new: true }
+  );
+  if (!user) return res.status(400).send({ message: "Token topilmadi" });
+  res.clearCookie("refreshToken");
+  return res.status(200).send({ user });
+};
+
 module.exports = {
   addUser,
   getUsers,
   getUserById,
   deleteUser,
   loginUser,
+  logoutUser
 };

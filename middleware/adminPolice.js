@@ -1,12 +1,11 @@
 const jwt = require("jsonwebtoken");
 const config = require("config");
-const { badRequest } = require("../error/ApiError");
+const myJwt = require("../services/JwtService")
 
 module.exports = function (req, res, next) {
   if (req.method == "OPTIONS") {
     next();
   }
-  // throw badRequest("Myerror")
   try {
     const authorization = req.headers.authorization;
     if (!authorization) {
