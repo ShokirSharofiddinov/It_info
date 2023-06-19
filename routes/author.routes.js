@@ -13,14 +13,14 @@ const authorPolice = require("../middleware/authorPolice");
 const authorRolesPolice = require("../middleware/authorRolesPolice");
 
 const router = Router();
-router.get("/", authorPolice,getAuthors);
+router.get("/", authorPolice, getAuthors);
 router.get(
   "/:id",
   authorRolesPolice(["READ", "WRITE", "CHANGE", "DELETE"]),
   getAuthorsById
 );
 router.post("/", Validator("author"), addAuthor);
-router.post("/login", Validator("author_emial_pass"), loginAuthor);
+router.post("/login", Validator("author_email_pass"), loginAuthor);
 router.post("/logout", logoutAuthor);
 router.post("/refresh", refreshAuthorToken);
 
