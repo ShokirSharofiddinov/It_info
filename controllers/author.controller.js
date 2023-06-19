@@ -154,6 +154,39 @@ const loginAuthor = async (req, res) => {
   }
 };
 
+const refreshAuthorToken = async (req, res) => {
+  const { refreshToken } = req.cookies;
+  console.log(refreshToken)
+  if (!refreshToken)
+    return res.status(400).send({ message: "Tokin topilmadi" });
+  
+  const authorDataFromCookie = await myJwt.verifyRefresh(refreshToken)
+  console.log(authorDataFromCookie)
+
+  const authorDataFromDB = await Author.findOne({author_token: refreshToken})
+  console.log(authorDataFromCookie)
+
+  if(!authorDataFromCookie || !authorDataFromDB)
+    return res.status(400).send({message: "Author ro'yxatdan o'tmagan"})
+  
+    const author = await Author.findById(authorDataFromCookie.id)
+    if(!author) return res.status(400).send({ message: "ID noto'g'ri" });
+    
+    const payload = {
+      id: author._id,
+      is_expert: author.is_expert,
+      authorRoles: ["READ","WRITE"]
+    }
+    const tokens = myJwt.generateTokens(payload)
+    author.author_token = tokens.refreshToken
+    await author.save();
+  res.cookie("refreshToken", tokens.refreshToken, {
+    maxAge: config.get("refresh_ms"),
+    httpOnly: true
+  })
+  res.status(200).send({...tokens})
+};
+
 const logoutAuthor = async (req, res) => {
   const { refreshToken } = req.cookies;
   let author;
@@ -192,4 +225,5 @@ module.exports = {
   deleteAuthor,
   loginAuthor,
   logoutAuthor,
+  refreshAuthorToken,
 };
