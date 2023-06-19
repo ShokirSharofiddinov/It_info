@@ -161,10 +161,8 @@ const refreshAuthorToken = async (req, res) => {
     return res.status(400).send({ message: "Tokin topilmadi" });
   
   const authorDataFromCookie = await myJwt.verifyRefresh(refreshToken)
-  console.log(authorDataFromCookie)
 
   const authorDataFromDB = await Author.findOne({author_token: refreshToken})
-  console.log(authorDataFromCookie)
 
   if(!authorDataFromCookie || !authorDataFromDB)
     return res.status(400).send({message: "Author ro'yxatdan o'tmagan"})
