@@ -6,6 +6,8 @@ const {
   loginAuthor,
   logoutAuthor,
   refreshAuthorToken,
+  authorActivate,
+  deleteAuthor,
 } = require("../controllers/author.controller");
 
 const Validator = require("../middleware/validator");
@@ -23,5 +25,7 @@ router.post("/", Validator("author"), addAuthor);
 router.post("/login", Validator("author_email_pass"), loginAuthor);
 router.post("/logout", logoutAuthor);
 router.post("/refresh", refreshAuthorToken);
+router.get("/activate/:link", authorActivate);
+router.delete("/:id",deleteAuthor)
 
 module.exports = router;

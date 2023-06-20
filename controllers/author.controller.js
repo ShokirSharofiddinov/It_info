@@ -73,6 +73,28 @@ const addAuthor = async (req, res) => {
   }
 };
 
+const authorActivate = async (req,res) => {
+  try {
+    const author = await Author.findOne({
+      author_activation_link: req.params.link
+    })
+    if(!author){
+      return res.status(400).send({message: "Bunday Avtor topilmadi"})
+    }
+    if(author.author_is_active){
+      return res.status(400).send({message: "User already activated"})
+    }
+    author.author_is_active = true
+    await author.save()
+    res.status(200).send({
+      author_is_active: author.author_is_active,
+      message: "user activated"
+    })
+  }catch(error){
+    errorHandler(res,error)
+  }
+}
+
 const getAuthors = async (req, res) => {
   try {
     const authors = await Author.find({});
@@ -241,4 +263,5 @@ module.exports = {
   loginAuthor,
   logoutAuthor,
   refreshAuthorToken,
+  authorActivate
 };
