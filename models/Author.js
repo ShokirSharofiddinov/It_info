@@ -40,8 +40,15 @@ const authorSchema = new Schema(
       type: Boolean,
     },
     author_token: {
-      type: String
-    }
+      type: String,
+    },
+    author_activation_link: {
+      type: String,
+    },
+    author_is_activ: {
+      type: Boolean,
+      default: false,
+    },
   },
   {
     versionKey: false,

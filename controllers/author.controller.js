@@ -4,16 +4,12 @@ const { default: mongoose } = require("mongoose");
 const { authorValidation } = require("../validation/author.validation");
 const config = require("config");
 const bcrypt = require("bcrypt");
-
+const uuid = require("uuid");
+const mailService = require("../services/MainService");
 const myJwt = require("../services/JwtService");
 
 const addAuthor = async (req, res) => {
   try {
-    const { error, value } = authorValidation(req.body);
-    if (error) {
-      return res.status(400).send({ message: error.details[0].message });
-    }
-
     const {
       author_first_name,
       author_last_name,
@@ -33,8 +29,8 @@ const addAuthor = async (req, res) => {
     if (author) {
       return res.status(400).send({ message: "Bunday avtor kiritilgan" });
     }
-
     const hashedPassword = await bcrypt.hash(author_password, 7);
+    const author_activation_link = uuid.v4();
 
     const newAuthor = await Author({
       author_first_name,
@@ -47,10 +43,31 @@ const addAuthor = async (req, res) => {
       author_position,
       author_photo,
       is_expert,
+      author_activation_link,
     });
 
     await newAuthor.save();
-    res.status(200).send({ message: "Yangi author qoshildi" });
+    await mailService.sendActivationMail(
+      author_email,
+      `${config.get("api_url")}/api/author/activate/${author_activation_link}`
+    );
+    const payload = {
+      id: newAuthor._id,
+      is_expert: newAuthor.is_expert,
+      authorRoles: ["READ", "WRITE"],
+      author_is_active: newAuthor.author_is_active,
+    };
+
+    const tokens = myJwt.generateTokens(payload);
+    newAuthor.author_token = tokens.refreshToken;
+    await newAuthor.save();
+
+    res.cookie("refreshToken", tokens.refreshToken, {
+      maxAge: config.get("refresh_ms"),
+      httpOnly: true,
+    });
+
+    res.status(200).send({ ...tokens, author: payload });
   } catch (error) {
     errorHandler(res, error);
   }
@@ -156,33 +173,33 @@ const loginAuthor = async (req, res) => {
 
 const refreshAuthorToken = async (req, res) => {
   const { refreshToken } = req.cookies;
-  console.log(refreshToken)
+  console.log(refreshToken);
   if (!refreshToken)
     return res.status(400).send({ message: "Tokin topilmadi" });
-  
-  const authorDataFromCookie = await myJwt.verifyRefresh(refreshToken)
 
-  const authorDataFromDB = await Author.findOne({author_token: refreshToken})
+  const authorDataFromCookie = await myJwt.verifyRefresh(refreshToken);
 
-  if(!authorDataFromCookie || !authorDataFromDB)
-    return res.status(400).send({message: "Author ro'yxatdan o'tmagan"})
-  
-    const author = await Author.findById(authorDataFromCookie.id)
-    if(!author) return res.status(400).send({ message: "ID noto'g'ri" });
-    
-    const payload = {
-      id: author._id,
-      is_expert: author.is_expert,
-      authorRoles: ["READ","WRITE"]
-    }
-    const tokens = myJwt.generateTokens(payload)
-    author.author_token = tokens.refreshToken
-    await author.save();
+  const authorDataFromDB = await Author.findOne({ author_token: refreshToken });
+
+  if (!authorDataFromCookie || !authorDataFromDB)
+    return res.status(400).send({ message: "Author ro'yxatdan o'tmagan" });
+
+  const author = await Author.findById(authorDataFromCookie.id);
+  if (!author) return res.status(400).send({ message: "ID noto'g'ri" });
+
+  const payload = {
+    id: author._id,
+    is_expert: author.is_expert,
+    authorRoles: ["READ", "WRITE"],
+  };
+  const tokens = myJwt.generateTokens(payload);
+  author.author_token = tokens.refreshToken;
+  await author.save();
   res.cookie("refreshToken", tokens.refreshToken, {
     maxAge: config.get("refresh_ms"),
-    httpOnly: true
-  })
-  res.status(200).send({...tokens})
+    httpOnly: true,
+  });
+  res.status(200).send({ ...tokens });
 };
 
 const logoutAuthor = async (req, res) => {
