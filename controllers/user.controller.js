@@ -1,17 +1,15 @@
 const User = require("../models/User");
 const { mongoose } = require("mongoose");
-const {userValidation} = require("../validation/user.validation");
+const { userValidation } = require("../validation/user.validation");
 const { errorHandler } = require("../helpers/error_handler");
 const bcrypt = require("bcrypt");
-const config = require("config")
-const myJwt = require("../services/JwtService")
+const config = require("config");
+const myJwt = require("../services/JwtService");
+const uuid = require("uuid");
+const mailService = require("../services/MainService");
 
 const addUser = async (req, res) => {
   try {
-    const { error, value } = userValidation(req.body);
-    if (error) {
-      return res.status(404).send({ message: error.details[0].message });
-    }
     const {
       user_name,
       user_password,
@@ -21,7 +19,7 @@ const addUser = async (req, res) => {
       created_date,
       updated_date,
       user_is_activ,
-    } = value;
+    } = req.body;
     const user = await User.findOne({
       user_name: { $regex: user_email, $options: "i" },
     });
@@ -29,6 +27,8 @@ const addUser = async (req, res) => {
       return res.status(400).json({ message: "email already exists" });
     }
     const hashedPassword = await bcrypt.hash(user_password, 7);
+    const user_activation_link = uuid.v4();
+
     const newUser = new User({
       user_name,
       user_password: hashedPassword,
@@ -38,10 +38,51 @@ const addUser = async (req, res) => {
       created_date,
       updated_date,
       user_is_activ,
+      user_activation_link,
     });
-    newUser.save();
+    await newUser.save();
+    await mailService.sendActivationMail(
+      user_email,
+      `${config.get("api_url")}/api/user/activate/${user_activation_link}`
+    );
 
-    res.status(201).json({ message: "User added successfully" });
+
+    const payload = {
+      id: newUser._id,
+      is_activ: newUser.user_is_activ,
+      userRoles: ["READ"],
+    };
+    const tokens = myJwt.generateTokens(payload);
+    newUser.user_token = tokens.refreshToken;
+    await newUser.save();
+    res.cookie("refreshToken", tokens.refreshToken, {
+      maxAge: config.get("refresh_ms"),
+      httpOnly: true,
+    });
+
+    res.status(200).send({ ...tokens, user: payload });
+  } catch (error) {
+    errorHandler(res, error);
+  }
+};
+
+const userActivate = async (req, res) => {
+  try {
+    const user = await User.findOne({
+      user_activation_link: req.params.link,
+    });
+    if (!user) {
+      return res.status(400).send({ message: "Bunday user topilmadi" });
+    }
+    if (user.user_is_active) {
+      return res.status(400).send({ message: "User already activated" });
+    }
+    user.user_is_active = true;
+    await user.save();
+    res.status(200).send({
+      user_is_active: user.user_is_active,
+      message: "user activated",
+    });
   } catch (error) {
     errorHandler(res, error);
   }
@@ -74,7 +115,6 @@ const loginUser = async (req, res) => {
     });
 
     res.status(200).send({ ...tokens });
-
   } catch (error) {
     errorHandler(res, error);
   }
@@ -147,5 +187,6 @@ module.exports = {
   getUserById,
   deleteUser,
   loginUser,
-  logoutUser
+  logoutUser,
+  userActivate,
 };

@@ -27,11 +27,15 @@ const userSchema = new Schema(
     updated_date: {
       type: Date,
     },
-    user_is_activ: {
-      type: Boolean,
-    },
     user_token: {
       type: String,
+    },
+    user_activation_link: {
+      type: String,
+    },
+    user_is_active: {
+      type: Boolean,
+      default: false,
     },
   },
   {
