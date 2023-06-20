@@ -141,6 +141,38 @@ const loginAdmin = async (req, res) => {
   }
 };
 
+const refreshAdminToken = async (req, res) => {
+  const { refreshToken } = req.cookies;
+  console.log(refreshToken);
+  if (!refreshToken)
+    return res.status(400).send({ message: "Tokin topilmadi" });
+
+  const adminDataFromCookie = await myJwt.verifyRefresh(refreshToken);
+
+  const adminDataFromDB = await Admin.findOne({ admin_token: refreshToken });
+
+  if (!adminDataFromCookie || !adminDataFromDB)
+    return res.status(400).send({ message: "Admin ro'yxatdan o'tmagan" });
+
+  const admin = await Admin.findById(adminDataFromCookie.id);
+  if (!admin) return res.status(400).send({ message: "ID noto'g'ri" });
+
+  const payload = {
+    id: admin._id,
+    is_activ: admin.admin_is_activ,
+    is_creator: admin.admin_is_creator,
+    adminRoles: ["READ", "WRITE"],
+  };
+  const tokens = myJwt.generateTokens(payload);
+  admin.admin_token = tokens.refreshToken;
+  await admin.save();
+  res.cookie("refreshToken", tokens.refreshToken, {
+    maxAge: config.get("refresh_ms"),
+    httpOnly: true,
+  });
+  res.status(200).send({ ...tokens });
+};
+
 const logoutAdmin = async (req, res) => {
   const { refreshToken } = req.cookies;
   let admin;
