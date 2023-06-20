@@ -8,7 +8,7 @@
   "access_time" : "15m",
   "refresh_time": "30d",
   "refresh_ms": 2592000000,
-  "smtpp_password": "xwyrminbrfbdzjuc",
+  "smtp_password": "xwyrminbrfbdzjuc",
   "smtp_host": "smtp.gmail.com",
   "smtp_port": 587,
   "smtp_user": "shokirsharofiddinov2909@gmail.com",

@@ -45,7 +45,7 @@ const authorSchema = new Schema(
     author_activation_link: {
       type: String,
     },
-    author_is_activ: {
+    author_is_active: {
       type: Boolean,
       default: false,
     },

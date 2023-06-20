@@ -21,9 +21,9 @@ const addAuthor = async (req, res) => {
       author_position,
       author_photo,
       is_expert,
-    } = value;
+    } = req.body;
 
-    console.log(value);
+
 
     const author = await Author.findOne({ author_email });
     if (author) {

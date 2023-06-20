@@ -18,7 +18,7 @@ class MailService {
     await this.transporter.sendMail({
       from: config.get("smtp_user"),
       to: toEmail,
-      subject: "ITIMFO akkauntini faollashtirish",
+      subject: "ITINFO akkauntini faollashtirish",
       text: "",
       html: `
             <div>
@@ -29,3 +29,5 @@ class MailService {
     });
   }
 }
+
+module.exports = new MailService()
