@@ -26,6 +26,6 @@ router.post("/login", Validator("author_email_pass"), loginAuthor);
 router.post("/logout", logoutAuthor);
 router.post("/refresh", refreshAuthorToken);
 router.get("/activate/:link", authorActivate);
-router.delete("/:id",deleteAuthor)
+router.delete("/:id",authorPolice,deleteAuthor)
 
 module.exports = router;

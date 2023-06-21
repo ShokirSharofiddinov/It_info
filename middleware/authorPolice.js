@@ -25,10 +25,11 @@ module.exports = async function (req, res, next) {
     const [error, decodedToken] = await to(
       myJwt.verifyAccess(token, config.get("secret"))
     );
+
     if (error) {
       return res.status(403).json({ message: error.message });
     }
-
+    req.author = decodedToken;
     console.log(decodedToken);
 
     next();

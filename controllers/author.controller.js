@@ -241,14 +241,16 @@ const logoutAuthor = async (req, res) => {
 
 const deleteAuthor = async (req, res) => {
   try {
-    if (!mongoose.isValidObjectId(req.params.id)) {
-      return res.status(400).send({ message: "Incorrect ID" });
+    const id = req.params.id
+    if (id !== req.author.id) {
+      return res.status(401).send({ message: "Sizga bunday huquq yo'q" });
     }
-    const author = await Author.deleteOne({ _id: req.params.id });
-    if (!author) {
-      return res.status(400).send({ message: "Author topilmadi" });
+    const author = await Author.findOne({ _id: id });
+    if (!author == null) {
+      return res.status(400).send({ message: "id is incorrect" });
     }
-    res.json({ message: "Author o'chirildi" });
+    await Author.findByIdAndDelete(id)
+    res.status(200).send({ message: "Author o'chirildi" });
   } catch (error) {
     errorHandler(res, error);
   }
