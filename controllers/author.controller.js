@@ -188,16 +188,16 @@ const loginAuthor = async (req, res) => {
       httpOnly: true,
     });
 
-    try{
-      setTimeout(function() {
-        var err = new Error("hello")
-        throw err
-      },1000)
-    }catch(err){
-      console.log(err)
-    }
+    // try{
+    //   setTimeout(function() {
+    //     var err = new Error("hello")
+    //     throw err
+    //   },1000)
+    // }catch(err){
+    //   console.log(err)
+    // }
 
-    new Promise((_, reject) => reject(new Error("woops1")))
+    // new Promise((_, reject) => reject(new Error("woops1")))
 
     res.status(200).send({ ...tokens });
   } catch (error) {
