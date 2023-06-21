@@ -5,7 +5,7 @@
   "adminSecret": "AdminVeryVerySeceretKey",
   "access_key": "BuAccssUchunMahfiyKalit",
   "refresh_key": "BuRefeshUchunMahfiyKalit",
-  "access_time" : "15m",
+  "access_time" : "1d",
   "refresh_time": "30d",
   "refresh_ms": 2592000000,
   "smtp_password": "xwyrminbrfbdzjuc",
