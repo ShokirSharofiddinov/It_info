@@ -4,3 +4,1754 @@ Error: woops1
     at new Promise (<anonymous>)
     at loginAuthor (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\controllers\author.controller.js:200:5)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-22T06:18:41.784Z error: uncaughtException: router is not defined
+ReferenceError: router is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:67:9)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:19:13.270Z error: uncaughtException: router is not defined
+ReferenceError: router is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:67:9)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:19:29.378Z error: uncaughtException: router is not defined
+ReferenceError: router is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:80:9)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:49:52.666Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4:3)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:50:00.640Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4:3)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:50:12.077Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4:3)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:51:34.090Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4:3)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:51:49.510Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4:3)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:51:56.160Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4:3)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:52:10.142Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4:3)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:52:14.314Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4:3)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:53:09.252Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4:3)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:53:40.099Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4:3)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:9)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:53:46.808Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4:3)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:54:14.317Z error: uncaughtException: transports is not defined
+ReferenceError: transports is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:6:13)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:54:30.208Z error: uncaughtException: transports is not defined
+ReferenceError: transports is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:6:13)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:9)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:55:43.909Z error: uncaughtException: transports is not defined
+ReferenceError: transports is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:6:13)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:9)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:55:49.304Z error: uncaughtException: winston is not defined
+ReferenceError: winston is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4:5)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:9)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:55:52.093Z error: uncaughtException: winston is not defined
+ReferenceError: winston is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4:5)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:9)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:56:04.509Z error: uncaughtException: config is not defined
+ReferenceError: config is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:15)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:9)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:56:11.149Z error: uncaughtException: expressWinsto is not defined
+ReferenceError: expressWinsto is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4:5)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:9)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:56:14.904Z error: uncaughtException: config is not defined
+ReferenceError: config is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:15)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:9)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:56:37.446Z error: uncaughtException: Unexpected token '}'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:18
+};
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T06:56:40.350Z error: uncaughtException: config is not defined
+ReferenceError: config is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:6:11)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T06:56:47.458Z error: uncaughtException: config is not defined
+ReferenceError: config is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:6:11)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T06:56:53.336Z error: uncaughtException: config is not defined
+ReferenceError: config is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:6:11)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T06:57:00.745Z error: uncaughtException: config is not defined
+ReferenceError: config is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:15)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:9)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:57:09.483Z error: uncaughtException: Unexpected token '.'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+    expressWinston.logger({
+                  ^
+
+SyntaxError: Unexpected token '.'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T06:57:11.678Z error: uncaughtException: Unexpected token ')'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:3
+module.exports = () {
+                  ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T06:57:14.373Z error: uncaughtException: config is not defined
+ReferenceError: config is not defined
+    at module.exports (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:15)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:9)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T06:58:18.906Z error: uncaughtException: req is not defined
+ReferenceError: req is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T06:58:20.468Z error: uncaughtException: Cannot find module 'packageName'
+Require stack:
+- C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js
+- C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js
+Error: Cannot find module 'packageName'
+Require stack:
+- C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js
+- C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:3:21)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+2023-06-22T07:00:49.783Z error: uncaughtException: Unexpected identifier 'json'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:9
+          options: { useUnifiedTopology: true json: true, colorize: true },
+                                              ^^^^
+
+SyntaxError: Unexpected identifier 'json'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:01:27.238Z error: uncaughtException: Unexpected token '='
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const = () => {
+      ^
+
+SyntaxError: Unexpected token '='
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:01:28.853Z error: uncaughtException: Unexpected token '='
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const  = () => {
+       ^
+
+SyntaxError: Unexpected token '='
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:01:38.576Z error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T07:01:41.228Z error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:45:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+2023-06-22T07:01:44.822Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:01:47.908Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:01:52.449Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:01:56.875Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:02:09.310Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:02:13.488Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:02:21.075Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:02:22.610Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:21)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:02:34.829Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:21)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:02:44.080Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:21)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:02:51.695Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:21)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:02:55.765Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:21)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:03:02.631Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:21)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:03:04.430Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:37)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:03:12.946Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:4
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:03:24.019Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:5
+const expressWinston = () => {
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:03:48.245Z error: uncaughtException: Unexpected token '}'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:22
+};
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:03:56.816Z error: uncaughtException: Unexpected token '}'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:22
+};
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:04:08.265Z error: uncaughtException: Unexpected token '}'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:22
+};
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:04:14.135Z error: uncaughtException: Unexpected token '}'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:22
+};
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:04:16.340Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:04:21.680Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:04:43.362Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:04:47.774Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:05:07.165Z error: uncaughtException: Unexpected identifier 'fiedTopology'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:12
+            fiedTopology: true },
+            ^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'fiedTopology'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:05:11.145Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:05:15.569Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:05:21.310Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:05:22.991Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:05:24.622Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:05:26.997Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:05:30.862Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:05:33.267Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:05:34.964Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:05:36.407Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:05:38.326Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:05:42.658Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:05:44.595Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:05:46.303Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:05:47.809Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:05:52.841Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:05:58.306Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:06:00.207Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:06:17.353Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:06:21.685Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:06:23.868Z error: uncaughtException: Unexpected identifier 'meta'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:16
+    meta: true,
+    ^^^^
+
+SyntaxError: Unexpected identifier 'meta'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:06:25.341Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:07:02.910Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:07:05.029Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:07:22.519Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:07:28.103Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:07:49.806Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:07:53.155Z error: uncaughtException: Identifier 'module' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:28
+module.exports = {
+^
+
+SyntaxError: Identifier 'module' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:07:55.529Z error: uncaughtException: Missing initializer in const declaration
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:26
+const expr
+      ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:07:57.497Z error: uncaughtException: Missing initializer in const declaration
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:26
+const express
+      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:07:59.593Z error: uncaughtException: Identifier 'expressWinston' has already been declared
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:26
+const expressWinston
+      ^
+
+SyntaxError: Identifier 'expressWinston' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:08:02.415Z error: uncaughtException: Missing initializer in const declaration
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:26
+const expressWinstonError
+      ^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:08:05.806Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:08:08.591Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:08:11.910Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:08:15.711Z error: uncaughtException: Cannot access 'expressWinston' before initialization
+ReferenceError: Cannot access 'expressWinston' before initialization
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:08:20.587Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:08:23.710Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:08:30.343Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:08:35.049Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:08:37.554Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:08:40.873Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:08:45.622Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:08:46.995Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:08:49.317Z error: uncaughtException: Unexpected token 'for'
+C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:28
+    for
+    ^^^
+
+SyntaxError: Unexpected token 'for'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+2023-06-22T07:08:51.438Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:08:52.855Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:08:56.726Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:09:01.750Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:09:09.587Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:09:13.270Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:09:34.375Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:28)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:09:36.646Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:09:39.587Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:09:46.683Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:10:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:10:24.510Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:10:31.336Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:10:37.892Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:10:44.368Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:10:49.633Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:11:56.277Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:11:59.191Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:12:02.307Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:12:04.717Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:12:06.247Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:7:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:12:07.904Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:6:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:12:09.314Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:6:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:12:20.853Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:6:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:37)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:12:22.991Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:6:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:49)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:12:26.097Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:6:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:54)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+2023-06-22T07:12:44.512Z error: uncaughtException: expressWinston is not defined
+ReferenceError: expressWinston is not defined
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\middleware\loggerMiddleware.js:6:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\app.js:8:54)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
