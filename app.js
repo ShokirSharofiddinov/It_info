@@ -29,13 +29,13 @@ logger.info("INFO malumotlar");
 
 const PORT = config.get("port") || 3030;
 
-process.on("uncaughtException", (ex) => {
-  console.log("uncaughExeption:", ex.message);
-});
+// process.on("uncaughtException", (ex) => {
+//   console.log("uncaughExeption:", ex.message);
+// });
 
-process.on("unhandledRejection", (rej) => {
-  console.log("unhandledRejection", rej);
-});
+// process.on("unhandledRejection", (rej) => {
+//   console.log("unhandledRejection", rej);
+// });
 
 const app = express();
 app.use(express.json());

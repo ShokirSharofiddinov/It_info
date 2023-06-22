@@ -1,0 +1,6 @@
+2023-06-22T05:10:36.318Z error: unhandledRejection: woops1
+Error: woops1
+    at C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\controllers\author.controller.js:200:39
+    at new Promise (<anonymous>)
+    at loginAuthor (C:\Users\User\Desktop\Dasturlash 2\MongoDB\IT_INFO-master\controllers\author.controller.js:200:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
