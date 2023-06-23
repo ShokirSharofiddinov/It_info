@@ -15,6 +15,8 @@ const synonymRouter = require("./synonym.routes");
 const author = require("./author.routes");
 const user = require("./user.routes");
 const admin = require("./admin.routes");
+const view = require("./view.routes")
+router.use("/", view)
 
 router.prefix("/api", (router) => {
   router.use("/dictionary", dictRouter);
