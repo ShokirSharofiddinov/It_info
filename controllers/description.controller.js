@@ -5,12 +5,6 @@ const { default: mongoose } = require("mongoose");
 const addDesc = async (req, res) => {
   try {
     const { description, category_id } = req.body;
-    // const desc = await Description.findOne({
-    //   description: { $regex: term, $options: "i" },
-    // });
-    // if (desc) {
-    //   return res.status(400).json({ message: "Description already exists" });
-    // }
     const newDesc = new Description({ description, category_id });
     newDesc.save();
 

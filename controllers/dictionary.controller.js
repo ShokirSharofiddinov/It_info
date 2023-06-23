@@ -26,7 +26,7 @@ const getDict = async (req, res) => {
     if (!dict) {
       return res.status(404).json({ message: "No dictionary found" });
     }
-    res.status(200).json(dict);
+    res.json({ data: dict });
   } catch (error) {
     errorHandler(res, error);
   }

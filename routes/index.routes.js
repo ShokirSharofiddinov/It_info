@@ -16,9 +16,11 @@ const author = require("./author.routes");
 const user = require("./user.routes");
 const admin = require("./admin.routes");
 const view = require("./view.routes")
+const topic = require("./topics.routes")
 router.use("/", view)
 
 router.prefix("/api", (router) => {
+  router.use("/topic",topic)
   router.use("/dictionary", dictRouter);
   router.use("/category", categoryRouter);
   router.use("/description", descRouter);

@@ -101,7 +101,7 @@ const getAuthors = async (req, res) => {
     if (!authors) {
       return res.status(400).send({ message: "Authorlar topilmadi" });
     }
-    res.json(authors);
+    res.json({data: authors})
   } catch (error) {
     errorHandler(res, error);
   }
