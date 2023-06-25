@@ -31,4 +31,11 @@ router.get("/authors", (req, res) => {
   });
 });
 
+router.get("/login", (req, res) => {
+  res.render(createViewPath("login"), {
+    title: "LOGIN",
+    isLogin: true,
+  });
+});
+
 module.exports = router;
